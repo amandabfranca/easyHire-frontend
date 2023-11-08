@@ -1,0 +1,47 @@
+
+h2 {
+  color: #c2ba94; 
+  text-align: center; 
+  font-size: 45px; 
+  margin-top: 20px; 
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); 
+}
+
+
+.home-page {
+  background: linear-gradient(to bottom, #89b7bc, #304967); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+
+button.register-button, button.search-button {
+  background-color: #467189; 
+  color: #c2ba94; 
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  text-transform: uppercase; 
+  transition: background-color 0.2s;
+}
+
+button.register-button:hover, button.search-button:hover {
+  background-color: #304967; 
+}
+
+
